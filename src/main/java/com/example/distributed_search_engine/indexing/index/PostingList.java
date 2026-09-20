@@ -37,14 +37,4 @@ public class PostingList {
 
     }
 
-    public boolean contains(
-            UUID documentId
-    ) {
-
-        return postings.containsKey(
-                documentId
-        );
-
-    }
-
 }

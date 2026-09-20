@@ -50,9 +50,7 @@ public class IndexingService {
     }
 
     public void flush() {
-
         segmentBuffer.flush();
-
     }
 
 }
